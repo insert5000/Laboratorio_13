@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03EA6868"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:text="PUSH ATUMOTATICAS"
+                android:textAlignment="center"
+                android:textColor="#EF0707"
+                android:textSize="35sp" />
+
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_marginTop="40dp"
+                android:hint="Nombre"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/edtAge"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_marginTop="20dp"
+                android:hint="Edad"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnSavePerson"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginTop="30dp"
+                android:text="REGISTRAR" />
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:layout_marginTop="30dp"
+                android:text="Cantidad de registros"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
